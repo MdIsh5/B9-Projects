@@ -1,0 +1,41 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h2{
+    color: blue;
+}
+table{
+    width: 700px;
+}
+
+th td{
+    padding: 30px;    
+}
+
+
+th{
+    text-align: center;
+    border-bottom: 3px solid rgb(140, 10, 234);
+    border-top: 3px solid rgb(92, 234, 10);
+}
+
+tr:hover{
+    background-color: rgb(10, 211, 164);
+    color: rgb(214, 55, 55);
+}
+
+.data{
+    background-color: rgb(236, 206, 10);
+}
+
+.status{
+    background-color:rgb(189, 14, 90)
+}
+.even{
+    background-color: rgb(156, 11, 50);
+}
+
+.odd{
+    background-color: rgb(54, 196, 3);
+}
