@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        p{
+            
+            color: rgb(121, 114, 29);
+            font-variant: small-caps;   
+            margin: 40px; 
+            
+        }
+        span a{
+            font-weight: bold;
+            cursor: pointer;
+            color: blueviolet;
+            text-decoration: none;
+        }
+        
+
+        p.visual::before{
+            
+            content: "Let's Do... " ;
+            margin-right: 15px;
+        }
+        p.visual::after{
+            
+            content: url(Assets/Images/laptop.svg);
+            margin-left: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <p class="visual">Live code with <span><a href="https://code.visualstudio.com/">Visual Studio Code!</a></span></p>
+</body>
+</html>
